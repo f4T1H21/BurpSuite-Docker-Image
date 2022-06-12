@@ -44,7 +44,8 @@ $ git clone https://github.com/f4T1H21/BurpSuite-Docker-Image.git
 - `--name` : Specifies a name for the container
 
 ## Setting up Burp Suite
-We obviously need to apply some changes in proxy settings.
+We obviously need to apply some changes in proxy settings.<br/>
+__We need to change our browser's http(s) proxy settings as 172.17.0.2:8080 in the host.__
 
 ![proxy](img/proxy.png)
 
