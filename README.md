@@ -14,12 +14,12 @@ Verify password:
   adding: burpsuite_pro.jar (deflated 1%)
 ```
 ## Setting up the Container
-### #1 Clone the repository on your local machine.
+### #1 Clone the repository on your local machine
 ```console
 $ git clone https://github.com/f4T1H21/BurpSuite-Docker-Image.git
 ```
 
-### #2 Build the image from Dockerfile.
+### #2 Build the image from Dockerfile
 
 ```console
 # docker image build -t burpsuite-pro .
