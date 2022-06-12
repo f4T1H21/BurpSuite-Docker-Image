@@ -1,6 +1,6 @@
 # Burp Suite Docker Image
 ## Overview
-This is a guide to setup and run Burp Suite inside a Docker container.
+This is a custom Docker image with a guide to setup and run Burp Suite inside a container. 
 
 ## Preliminary
 This is optional, if you don't want to do this step, you need to edit the `# Copy Burp Suite file.` part in Dockerfile.
