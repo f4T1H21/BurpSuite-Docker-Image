@@ -3,7 +3,8 @@
 This is a custom Docker image with a guide to setup and run Burp Suite inside a container. 
 
 ## Preliminary
-This is optional, if you don't want to do this step, you need to edit `# Copy Burp Suite file.` and `# Create handy aliases.` parts in Dockerfile.
+This is optional.<br/>
+If you don't want to do this step, you need to edit filenames in `# Copy Burp Suite file.` and `# Create handy aliases.` parts in Dockerfile.
 
 ```console
 $ cp your_burpsuite_file.jar burpsuite_pro.jar
