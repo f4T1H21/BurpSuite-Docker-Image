@@ -13,6 +13,26 @@ Enter password:
 Verify password: 
   adding: burpsuite_pro.jar (deflated 1%)
 ```
+## X Server Authorization
+Because Burp Suite has a GUI, container will need to access to host's X server so as to run Burp Suite properly.<br/>
+In order to allow local X clients to connect host's X server, run the following commands.
+
+```console
+$ xhost +local:*
+non-network local connections being added to access control list
+```
+
+Check the whitelist to see if a `LOCAL` keyword has appended.
+
+```console
+$ xhost
+access control enabled, only authorized clients can connect
+LOCAL:
+```
+
+From now on, the X server will accept any local connection.<br/>
+See [`xhost` man page](https://linux.die.net/man/1/xhost) for more information.
+
 ## Setting up the Container
 ### #1 Clone the repository on your local machine
 ```console
