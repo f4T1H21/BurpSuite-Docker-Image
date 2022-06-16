@@ -13,7 +13,7 @@ Enter password:
 Verify password: 
   adding: burpsuite_pro.jar (deflated 1%)
 ```
-## X Server Authorization
+## X Server Authentication
 Because Burp Suite has a GUI, container will need to access to host's X server so as to run Burp Suite properly.<br/>
 In order to allow local X clients to connect host's X server, run the following commands.
 
