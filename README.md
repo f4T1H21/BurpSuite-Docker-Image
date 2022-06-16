@@ -41,6 +41,7 @@ $ git clone https://github.com/f4T1H21/BurpSuite-Docker-Image.git
 ```
 
 - `-t` : Specifies a name and optionally a tag in the 'name:tag' format for the image.
+- `-f` : Specifies the Dockerfile path, default is ./Dockerfile
 
 ### #3 Run the image
 ```console
