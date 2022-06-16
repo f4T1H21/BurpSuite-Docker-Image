@@ -87,8 +87,9 @@ burp &
 
 ## Further works
 We don't want to create a new container everytime we use this image right?<br/>
-Then we can use the `start` command of Docker to start the stopped container.<br/>
-This way we can save our progress.
+Then we can use the `start` command of Docker to start the stopped container. This way we can save our progress.<br/>
+By the way; whenever you want to start the container, I recommend you to do the authentication step first.<br/>
+Because sometimes the xhost settings gets reset.
 
 ```console
 $ xhost +local:* && sudo docker start -i burpsuite
