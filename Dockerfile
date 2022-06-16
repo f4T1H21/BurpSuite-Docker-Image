@@ -48,7 +48,7 @@ RUN echo "alias burp='java -jar -Xmx4g /root/burpsuite/burpsuite.jar'" \
 RUN echo "alias c=\"echo -e '\033[0m'\" # Reset terminal color" >> /root/.bashrc
 RUN echo "alias cls='clear'" >> /root/.bashrc
 RUN echo "alias ee='exit'" >> /root/.bashrc
-RUN echo "alias update='apt-get update && apt-get full-upgrade -y && apt-get autoremove " \
+RUN echo "alias update='apt-get update && apt-get full-upgrade -y && apt-get autoremove" \
                        "-y && apt-get autoclean && apt-get clean'" >> /root/.bashrc
 
 # Fire up Burp Suite whenever bash runs (.bashrc file gets executed).
