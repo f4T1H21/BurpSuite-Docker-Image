@@ -91,7 +91,7 @@ Then we can use the `start` command of Docker to start the stopped container.<br
 This way we can save our progress.
 
 ```console
-# docker start -i burpsuite
+$ xhost +local:* && sudo docker start -i burpsuite
 root@burpsuite:~#
 ```
 <br/>
