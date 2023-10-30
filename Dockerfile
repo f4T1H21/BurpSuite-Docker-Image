@@ -1,4 +1,3 @@
-# ﺏ
 # Written by Şefik Efe aka f4T1H
 # Licensed under the GNU General Public License v3.0
 # See https://github.com/f4T1H21/BurpSuite-Docker-Image for more details
